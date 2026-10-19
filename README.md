@@ -4,7 +4,7 @@
 This is a single-page responsive portfolio website created as part of the lab assignment (WEEK06 HCI LAB). It showcases my profile, projects, skills, and contact details, as a student, content creator and photographer. It is built using HTML and CSS only (no JavaScript).
 
 * URL Link to website portfolio: [Click Here](https://mendrika30.github.io/portfolio/)
-* URL Link to website design: [Click Here](https://canva.link/0dqvzmjm36pxk8r)
+* URL Link to website design: [Click Here](https://canva.link/43nv2ngix69nixt)
 
 ## 🎯 Purpose
 The goal of this project is to:
