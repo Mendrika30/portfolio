@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --bg: #f5d9f2;
+  --accent: #f44336;
+  --card: #ffffff;
+  --text: #333333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+  text-align: center;
+  padding: 2em 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+nav a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: var(--accent);
+  font-size: 3em;
+}
+.name {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* Sections */
+section {
+  padding: 3em 1.5em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: var(--accent);
+  margin-bottom: 1em;
+}
+
+/* About photo */
+.profile {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* Projects */
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+#projects h2 {
+  width: 100%;
+}
+
+article {
+  background: var(--card);
+  padding: 1.5em;
+  border-radius: 1em;
+  flex: 1 1 220px;
+  transition: 0.3s;
+  border-top: 0.4em solid var(--accent);
+}
+
+article:hover {
+  transform: translateY(-5px);
+}
+
+/* Skills */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em;
+  list-style: none;
+}
+
+li {
+  background: var(--accent);
+  color: white;
+  padding: 0.4em 1em;
+  border-radius: 2em;
+}
+
+/* Contact */
+#contact a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2em 1em;
+  background: var(--accent);
+  color: white;
+}
+
+/* Responsive: keep this at the end */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  section {
+    padding: 2em 1em;
+  }
+}
