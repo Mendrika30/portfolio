@@ -35,9 +35,9 @@ The website includes the following sections:
 - Floating Dock Navigation: quick links to sections and a dark mode toggle
 - Header: status badge, aurora gradient title, and tagline
 - About Me: short bio and profile photo
-- Projects: Vora Wellness App and StudySpace
+- Projects: Travel Vlogs and Food Reels
 - Skills: Photography, Video Editing, Content Creation
-- Contact: direct email link, Send Email action, and GitHub link
+- Contact: direct email link, Send Email action,copy email and GitHub link
 - Footer: copyright
 
 ## 📱 Responsiveness
@@ -74,7 +74,7 @@ Responsive design is achieved using custom CSS media queries (`min-width` and `m
 
 ## 📄 Notes
 
-- I used AI to help me plan the layout, get HTML and CSS snippets, and fix CSS bugs.
+- I used AI to help me plan the layout, get HTML, JavaScript and CSS snippets, and fix CSS bugs.
 - I designed the layout and color scheme in Canva, and I customized the content, text, and styling myself.
 - I wrote the project descriptions and contact section myself.
 
