@@ -1,58 +1,60 @@
 # 🌐 Personal Portfolio Website
 
 ## 📖 Project Overview
-This is a single-page responsive portfolio website created as part of the lab assignment (WEEK06 HCI LAB). It showcases my profile, projects, skills, and contact details, as a student, content creator and photographer. It is built using HTML and CSS only (no JavaScript).
+This is a single-page responsive portfolio website created as part of the lab assignment (WEEK06 HCI LAB). It showcases my profile, projects, skills, and contact details as a student, content creator, and photographer. It is built using HTML, CSS, and modern interactive JavaScript.
 
-* URL Link to website portfolio: [Click Here](https://mendrika30.github.io/portfolio/)
-* URL Link to website design: [Click Here](https://canva.link/43nv2ngix69nixt)
+- URL Link to website portfolio: [Click Here](https://mendrika30.github.io/portfolio/)
+- URL Link to website design: [Click Here](https://canva.link/43nv2ngix69nixt)
 
 ## 🎯 Purpose
 The goal of this project is to:
 
-* Practice responsive web design techniques
-* Learn how to structure and style a webpage
-* Showcase my content creation projects in a clear, professional format
+- Practice responsive web design techniques for both mobile and laptop/desktop views
+- Learn how to structure and style a modern webpage using Magic UI concepts and dark mode support
+- Showcase my content creation and computer science projects in a clear, professional format
 
 ## 👥 Target Audience
 This portfolio is designed for:
 
-* [✅] Potential employers or recruiters
-* [✅] Lecturers and academic supervisors
-* [✅] Freelance and collaboration opportunities
+- [✅] Potential employers or recruiters
+- [✅] Lecturers and academic supervisors
+- [✅] Freelance and collaboration opportunities
 
 Note: the projects are sample projects created for this assignment.
 
 ## 🧱 Technologies Used
 
-* HTML5 (semantic elements: header, nav, main, section, article, footer)
-* CSS3 (Flexbox, box model, transitions, media queries)
-* Google Fonts (Poppins)
+- HTML5 (semantic elements: header, nav, main, section, article, footer)
+- CSS3 (Flexbox, box model, custom properties `:root`, transitions, backdrop filters, and responsive media queries)
+- JavaScript (ES6+ for dark mode toggle, smooth scrolling, and dynamic interactions)
+- Google Fonts (Poppins)
 
 ## 📐 Layout & Sections
 The website includes the following sections:
 
-* Header: title, name, and tagline
-* About Me: short bio and photo
-* Projects: Travel Vlogs and Food Reels
-* Skills: Photography, Video Editing, Content Creation
-* Contact: email link
-* Footer: copyright
+- Floating Dock Navigation: quick links to sections and a dark mode toggle
+- Header: status badge, aurora gradient title, and tagline
+- About Me: short bio and profile photo
+- Projects: Vora Wellness App and StudySpace
+- Skills: Photography, Video Editing, Content Creation
+- Contact: direct email link, Send Email action, and GitHub link
+- Footer: copyright
 
 ## 📱 Responsiveness
 The site is optimized for:
 
-* Desktop
-* Tablet
-* Mobile
+- Laptop / Desktop
+- Tablet
+- Mobile
 
-Responsive design is achieved using media queries, relative units (em, %), and flexible Flexbox layouts that wrap on smaller screens.
+Responsive design is achieved using custom CSS media queries (`min-width` and `max-width`), relative units, and flexible Flexbox layouts that stack or wrap smoothly on smaller screens.
 
 ## 🧪 How to Run Locally
 
 1. Open your code editor (e.g., Visual Studio Code).
 2. Clone the repository:
 
-       git clone https://github.com/Mendrika30/portfolio.git
+        git clone https://github.com/Mendrika30/portfolio.git
 
 3. Open `index.html` in your browser, or run it with the Live Server extension.
 
@@ -62,14 +64,19 @@ Responsive design is achieved using media queries, relative units (em, %), and f
     │
     ├── index.html
     ├── style.css
+    ├── script.js
+    ├── profile.jpg
     ├── images/
+    │   ├── screenshot-desktop.png
+    │   ├── screenshot-mobile.png
+    │   └── screenshot-canva.png
     └── README.md
 
 ## 📄 Notes
 
-* I used Claude (AI) to help me plan the layout, get HTML and CSS snippets, and fix CSS bugs.
-* I designed the layout and color scheme in Canva, and I customized the content, text, and styling myself.
-* I wrote the project descriptions and contact section myself.
+- I used AI to help me plan the layout, get HTML and CSS snippets, and fix CSS bugs.
+- I designed the layout and color scheme in Canva, and I customized the content, text, and styling myself.
+- I wrote the project descriptions and contact section myself.
 
 ## 📸 Screenshots
 
